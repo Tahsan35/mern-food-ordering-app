@@ -13,11 +13,10 @@ const Header = () => {
           MernEats.com
         </Link>
         <div className="md:hidden">
-          <MobileNav />{" "}
+          <MobileNav />
         </div>
         <div className="hidden md:block">
-          {" "}
-          <MainNav />{" "}
+          <MainNav />
         </div>
       </div>
     </div>
